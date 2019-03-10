@@ -10,6 +10,7 @@ app.set('views', './app/views');
 consign()
     .include('app/routes')
     .then('app/controllers')
+    .then('config/dbConnection.js')
     .into(app);
 
 
