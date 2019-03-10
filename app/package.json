@@ -1,0 +1,25 @@
+{
+  "name": "site-cacic",
+  "version": "1.0.0",
+  "description": "site do centro acadêmico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "site",
+    "ca"
+  ],
+  "author": "Centro Acadêmico da Ciência da Computação - FCT UNESP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
